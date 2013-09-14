@@ -5,6 +5,6 @@ class WattsunController < ApplicationController
   end
 
   def show
-
+    @lat, @long = Geocoder.coordinates(params[:q])
   end
 end

@@ -1,6 +1,9 @@
 $(document).ready(function(){
   // create a map in the "map" div, set the view to a given place and zoom
-  var map = L.map('map').setView([51.505, -0.09], 13);
+  var latitude  = $('#map').data('lat');
+  var longitude = $('#map').data('long');
+
+  var map = L.map('map').setView([latitude, longitude], 13);
 
   // add an OpenStreetMap tile layer
   L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -8,8 +11,9 @@ $(document).ready(function(){
   }).addTo(map);
 
   // add a marker in the given location, attach some popup content to it   and open the popup
-  L.marker([51.5, -0.09]).addTo(map)
-      .bindPopup('A pretty CSS3 popup. <br> Easily customizable.')
+
+  L.marker([latitude, longitude]).addTo(map)
+      .bindPopup('Your house.')
       .openPopup();
 
   L.tileLayer('http://{s}.tile.cloudmade.  com/26d0b59d4044441e8bb7ebecb61a875f/997/256/{z}/{x}/{y}.png', {

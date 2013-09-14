@@ -1,4 +1,6 @@
-<p>Hello</p>
-<div id="map" class="map" style="height:200px">
-
-</div>
+"welcome"
+<%= form_tag("show", method: "get") do %>
+  <%= label_tag(:q, "Address:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Submit") %>
+<% end %>
