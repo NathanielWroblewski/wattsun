@@ -1,6 +1,6 @@
 "welcome"
 <%= form_tag("show", method: "get") do %>
-  <%= label_tag(:q, "Address:") %>
-  <%= text_field_tag(:q) %>
+  <%= label_tag(:address, "Address:") %>
+  <%= text_field_tag(:address) %>
   <%= submit_tag("Submit") %>
 <% end %>

@@ -1,3 +1,4 @@
-$(function() {
-  $("#address").suggest({filter:'(all type:/film/director)'});
+$(document).ready(function(){
+  console.log('suggest');
+  $("#address").suggest({filter:'(all type:/location)'});
 });
