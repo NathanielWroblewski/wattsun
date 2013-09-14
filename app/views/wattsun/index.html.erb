@@ -1,5 +1,4 @@
-"welcome"
-<%= form_tag("show", method: "get") do %>
+<%= form_tag(wattsun_map_path, method: "get") do %>
   <%= label_tag(:address, "Address:") %>
   <%= text_field_tag(:address) %>
   <%= submit_tag("Submit") %>
