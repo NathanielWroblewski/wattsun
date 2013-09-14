@@ -33,6 +33,7 @@ group :doc do
 end
 
 gem 'geocoder'
+gem 'protected_attributes'
 
 group :assets do
   gem 'zurb-foundation'

@@ -5,6 +5,14 @@ class WattsunController < ApplicationController
   end
 
   def show
-    @lat, @long = Geocoder.coordinates(params[:address])
+    # @lat, @long = Geocoder.coordinates(params[:address])
+    @lat = 37.9300
+    @long = -121.9500
+  end
+
+  def solar_homes
+    homes = SolarHome.all.reject{ |home| home.latitude.nil? }
+    markers = homes.map{ |home| [ home.latitude, home.longitude ] }
+    render json: { markers: markers }
   end
 end

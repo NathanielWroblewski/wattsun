@@ -1,4 +1,5 @@
 $(document).ready(function(){
-  console.log('suggest');
-  $("#address").suggest({filter:'(all type:/location)'});
+  if ($('#address').length > 0) {
+    $("#address").suggest({filter:'(all type:/location)'});
+  }
 });
