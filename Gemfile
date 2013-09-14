@@ -34,6 +34,10 @@ end
 
 gem 'geocoder'
 
+group :assets do
+  gem 'zurb-foundation'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
