@@ -1,13 +1,17 @@
-<div id="map-page">
-  <h1>
-    <span class="bignum">5,056</span> solar homes in Contra Costa.
-  </h1>
-  <h3>(that's a lot of reasons to consider solar)</h3>
-  <img class="logo" src="<%= asset_path('WattSunLogo_White.png') %>">
-
-  <div id="map" class="map" data-lat="<%= @lat %>" data-long="<%= @long %>"></div>
-
-  <%= link_to wattsun_moneybags_path do %>
-    <button class="btn round alert">See How Much Money You Save</button>
-  <% end %>
-</div>
+<div id="map-page" class='row'>
+  <div class='large-offset-9 small-offset-9'>
+    <%= image_tag("WattSunLogo_RED.png", alt:"Beautiful Day Image")%>
+  </div>
+  <div class="large-12 columns">
+    <div>
+      <h1 id='map-text'>
+        <span class="bignum">5,056</span> solar homes in Contra Costa.
+      </h1>
+    </div>
+    <h3>(that's a lot of reasons to consider solar)</h3>
+    <div id="map" class="large-offset-2" data-lat="<%= @lat %>" data-long="<%= @long %>"></div>
+    <%= link_to wattsun_moneybags_path do %>
+      <button class="btn round alert">See How Much Money You Save</button>
+    <%= end %>
+  </div>
+</div>  

@@ -6,27 +6,25 @@ html, body {
    height:100%;
 }
 
+.logo {
+  min-width: 200%;
+  height: inherit;
+}
+
 #map-page {
   height: 100%;
-  width: 100%;
+  width: 80%;
   background-color: $background-color;
-  padding: 5% 10% 10% 10%;
   text-align: center;
   min-height: 800px;
   font-family: 'Lato', sans-serif;
+  overflow: auto;
+  min-width: 100%;
 
-  .logo{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    top: 0px;
-    right: 0px;
-  }
-
-  h1 {
+  #map-text {
     color: white;
     font-family: 'Lato', sans-serif;
-    margin: 0px 0px -10px;
+    margin: -312px 0px -10px;
 
     .bignum {
       font-size: 70px;
@@ -36,14 +34,24 @@ html, body {
 
   h3 {
     font-family: 'Lato', sans-serif;
-    color: rgba(0,0,0,.3);
+    color: white;
+    margin-top: -17px;
     margin-bottom: 30px;
   }
 
   #map {
     height: 80%;
+    min-height: 500px;
     border: 1px solid white;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    width: 65%
+  }
+
+  button {
+    margin-top: 20px;
+>>>>>>> map styling - need to fix logo still
   }
 }
 
