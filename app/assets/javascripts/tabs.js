@@ -10,4 +10,19 @@ $(document).ready(function(){
     $('.' + ($(this).data('tab'))).removeClass('hidden');
   });
 
+  $('.tab2').on('click', function(){
+    setTimeout(function(){
+      setTimeout(function(){
+        setTimeout(function(){
+        }, 1500);
+      }, 1000)
+    }, 500);
+  });
+
+  $('.tab3').on('click', function(){
+    $('.right').find('h1').addClass('animated pulse');
+    $('.right').find('h3').addClass('animated pulse');
+    $('.right').find('img').addClass('animated pulse');
+  });
+
 });
