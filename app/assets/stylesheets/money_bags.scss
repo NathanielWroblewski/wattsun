@@ -93,9 +93,11 @@ html, body {
       margin-left: 40px;
       color: white;
       font-size: 5cm;
-      font-family: "Lato", sans-serif;
-      -vendor-animation-duration: 7s;
-      -vendor-animation-delay: 2s;
+      font-family: 'Lato', sans-serif;
+      -webkit-animation-duration: 2s;
+      -moz-animation-duration: 2s;
+      -ms-animation-duration: 2s;
+      -o-animation-duration: 2s;
     }
 
     .left-arrow {
