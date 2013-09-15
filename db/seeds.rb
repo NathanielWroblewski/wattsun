@@ -11,3 +11,8 @@ require 'csv'
 # CSV.foreach('./solar_homes.csv') do |row|
 #   SolarHome.create(full_address: row.join(', '))
 # end
+CSV.foreach('./pg_dump.dmp') do |row|
+  home = SolarHome.new
+  home.update_attributes(latitude: row[2], longitude: row[3])
+  home.save
+end
