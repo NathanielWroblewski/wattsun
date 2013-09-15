@@ -39,6 +39,8 @@ gem 'protected_attributes'
 gem 'compass-rails', "~> 2.0.alpha.0"
 gem 'zurb-foundation'
 
+gem 'pry'
+gem 'mechanize'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
