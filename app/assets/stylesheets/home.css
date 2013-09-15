@@ -11,6 +11,7 @@ body, html {
   background-size: 100% 100%;
   min-width: 100%;
   min-height: 100%;
+  
   img {
     height: 100px;
     width: 100px;
@@ -20,12 +21,14 @@ body, html {
   }
 }
 
+.home-logo {
+  height: 170px;
+}
 
 #welcome-text {
   padding-top: 75px;
   text-align: center;
-  margin: 125px 0 50px;
-  height: 300px;
+  height: 270px;
   background-color: black;
   opacity: .7;
 }
