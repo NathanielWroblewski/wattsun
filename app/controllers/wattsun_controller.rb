@@ -5,10 +5,10 @@ class WattsunController < ApplicationController
   end
 
   def map
-    # @lat, @long = Geocoder.coordinates(params[:address])
+    @lat, @long = Geocoder.coordinates(params[:address])
     parse_address(params[:address])
-    @lat = 37.9300
-    @long = -121.9500
+    # @lat = 37.9230
+    # @long = -122.0273
   end
 
   def solar_homes
