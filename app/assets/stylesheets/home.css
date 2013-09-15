@@ -11,15 +11,15 @@ body, html {
   background-size: 100% 100%;
   min-width: 100%;
   min-height: 100%;
+  img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
-img {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
 #welcome-text {
   padding-top: 75px;
