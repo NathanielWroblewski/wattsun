@@ -1301,3 +1301,12 @@ $default-float: left;
 // $topbar-sticky-class: ".sticky";
 
 @import 'foundation';
+
+#address {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 400px !important;
+  width: 400px;
+}
