@@ -20,7 +20,7 @@ $(document).ready(function(){
         $('.num-two').show().addClass('animated fadeInDown');
         setTimeout(function(){
           $('.num-three').show().addClass('animated fadeInDown');
-        }, 1500);
+        }, 1200);
       }, 1000)
     }, 500);
   });
