@@ -1,21 +1,21 @@
 <div class='row' id='welcome'>
   <div class='large-offset-9 small-offset-9'>
-    <%= image_tag("WattSunLogo_RED.png", alt:"WattSun Logo")%>
+    <%= image_tag("WattSunLogo_RED.png", alt:"WattSun Logo", class:"home-logo")%>
   </div>
   <div class='row' id='welcome-text'>
-    <div class='large-centered small-centered large-offset-1 small-offset-1'>
+    <div>
       <h1>There are 150,000 solar homes in California</h1>
-      <div class='large-centered small-centered large-offset-2 small-offset-2'>
+      <div>
         <h2>(And a new one every 4 minutes)</h2>
       </div>
     </div>
-  </div>
-    <div class='large-centered small-6 small-centered columns'>
-    <%= form_tag(wattsun_map_path, method: "get") do %>
+    <div class='large-offset-4 columns'>
+      <%= form_tag(wattsun_map_path, method: "get") do %>
       <%= text_field_tag(:address, nil, placeholder: "Enter Address") %>
-      <div class='large-centered small-9 small-centered columns'>
-          <button class='button round alert'>See how many there are around YOU</button>
-        </div>
-    <% end %>
+      <div class='large-offset-2 large-10 columns'>
+        <button class='button round alert home-button'>Submit</button>
+      </div>
+      <% end %>
+    </div>
   </div>
 </div>
