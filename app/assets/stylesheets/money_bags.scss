@@ -149,6 +149,38 @@ html, body {
   }
 
   .tab-two {
+    margin-top: -30px;
+
+    .big-dino {
+      margin-top: 10px;
+      max-height: 90px;
+    }
+
+    .solar-panel {
+      margin-left: 40px;
+    }
+
+    .line {
+      height: 5px;
+      width: 60em;
+      background-color: white;
+      margin-top: 0;
+    }
+
+    .moneybag {
+      margin-top: 25px;
+      margin-left: 80px;
+    }
+
+    #green {
+      color: green;
+      margin-left: 228px;
+    }
+
+    h4 {
+      text-align: right;
+      width: 326px;
+    }
   }
   
   .tab-three {
