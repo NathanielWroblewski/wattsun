@@ -1,17 +1,20 @@
-<% if @address && @zip %>
-  $(document).ready(function(){
-    window.address = <%= @address %>
-    window.zip = <%= @zip %>
-  });
-<% end %>
-
 $(document).ready(function(){
-  if (typeof window.address != 'undefined') {
+  if ($('#map').length > 0) {
+    jQuery.support.cors = true;
+
     $.ajax('http://www.zillow.com/webservice/GetSearchResults.htm' +
       '?zws-id=X1-ZWz1bdsmwbv7yj_963mm' +
-      '&address=' + window.address +
-      '&citystatezip=' + window.zip, function(data){
-      console.log(data)
-    });
+      '&address=' + $('#map').data('address') +
+      '&citystatezip=' + $('#map').data('zip') + '', {
+      dataType: "JSON",
+      complete: function(result, success){
+        if (success === 'error') {
+          console.log('loser');
+        }
+        else {
+          console.log('winner');
+        }
+      }
+    })
   }
 });
