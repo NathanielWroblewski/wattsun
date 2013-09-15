@@ -7,7 +7,6 @@
 
 $(document).ready(function(){
   if (typeof window.address != 'undefined') {
-    console.log('hey');
     $.ajax('http://www.zillow.com/webservice/GetSearchResults.htm' +
       '?zws-id=X1-ZWz1bdsmwbv7yj_963mm' +
       '&address=' + window.address +
