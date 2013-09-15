@@ -1,5 +1,26 @@
-<%= form_tag(wattsun_map_path, method: "get") do %>
-  <%= label_tag(:address, "Address:") %>
-  <%= text_field_tag(:address) %>
-  <%= submit_tag("Submit") %>
-<% end %>
+<div class='row' id='welcome'>
+  <div class='large-offset-9 small-offset-9'>
+    <%= image_tag("WattSunLogo_White.png", alt:"Beautiful Day Image")%>
+  </div>
+  <div class='row' id='welcome-text'>
+    <div class='large-centered small-centered large-offset-1 small-offset-1'>
+      <h1>There are 150,000 solar homes in California</h1>
+      <div class='large-centered small-centered large-offset-2 small-offset-2'>
+        <h2>(And a new one every 4 minutes)</h2>
+      </div>
+    </div>
+  </div>
+<form>
+  <div class='row'>
+    <div class='large-centered small-6 small-centered columns'>
+      <%= form_tag(wattsun_map_path, method: "get") do %>
+        <%= text_field_tag(:address, "Enter Address") %>
+        <div class='large-centered small-9 small-centered columns'>
+          <button class='button round alert'>See how many there are around YOU</button>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</form>
+</div>
+
