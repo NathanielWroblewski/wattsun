@@ -11,9 +11,15 @@ $(document).ready(function(){
   });
 
   $('.tab2').on('click', function(){
+    $('.num-one').hide();
+    $('.num-two').hide();
+    $('.num-three').hide();
     setTimeout(function(){
+      $('.num-one').show().addClass('animated fadeInDown');
       setTimeout(function(){
+        $('.num-two').show().addClass('animated fadeInDown');
         setTimeout(function(){
+          $('.num-three').show().addClass('animated fadeInDown');
         }, 1500);
       }, 1000)
     }, 500);
@@ -24,5 +30,4 @@ $(document).ready(function(){
     $('.right').find('h3').addClass('animated pulse');
     $('.right').find('img').addClass('animated pulse');
   });
-
 });
