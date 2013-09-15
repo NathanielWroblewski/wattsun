@@ -6,6 +6,7 @@ class WattsunController < ApplicationController
 
   def map
     # @lat, @long = Geocoder.coordinates(params[:address])
+    parse_address(params[:address])
     @lat = 37.9300
     @long = -121.9500
   end

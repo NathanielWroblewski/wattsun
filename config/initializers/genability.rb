@@ -16,6 +16,4 @@ rateAmount *= 100
 
 rateAmount = "$" + sprintf('%.2f', rateAmount)
 
-binding.pry
-
 
