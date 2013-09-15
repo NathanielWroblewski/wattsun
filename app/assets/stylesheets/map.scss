@@ -6,9 +6,11 @@ html, body {
    height:100%;
 }
 
-.logo {
-  min-width: 200%;
-  height: inherit;
+#logo-map {
+  height: 130px;
+  margin-top: 25px;
+  margin-left: 90px;
+  z-index: -1;
 }
 
 #map-page {
@@ -17,6 +19,7 @@ html, body {
   background-color: $background-color;
   text-align: center;
   min-height: 800px;
+  z-index: -2;
   font-family: 'Lato', sans-serif;
   overflow: auto;
   min-width: 100%;
@@ -24,7 +27,7 @@ html, body {
   #map-text {
     color: white;
     font-family: 'Lato', sans-serif;
-    margin: -312px 0px -10px;
+    margin-top: -3.2em;
 
     .bignum {
       font-size: 70px;
