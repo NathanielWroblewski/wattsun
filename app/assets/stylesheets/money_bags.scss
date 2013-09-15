@@ -72,11 +72,19 @@ html, body {
       left: -100px;
     }
 
+    #versus {
+      margin-top: -188px;
+      margin-left: 61px;
+      color: white;
+      font-size: 5cm;
+      font-family: "Lato", sans-serif;
+    }
+
     .left-arrow {
       height: 250px;
       position: relative;
       top: 0px;
-      left: 199px;
+      left: 182px;
       z-index: 0;
     }
 
@@ -84,7 +92,7 @@ html, body {
       height: 250px;
       position: relative;
       top: -190px;
-      left: 505px;
+      left: 85px;
       z-index: 0;
     }
 
@@ -137,13 +145,13 @@ html, body {
       height: 90px;
       position: relative;
       top: -200px;
-      left: 206px;
+      left: 199px;
     }
 
     .right-home {
       height: 90px;
       position: relative;
-      top: -200px;
+      top: -199px;
       left: -72px;
     }
   }
@@ -173,7 +181,7 @@ html, body {
     }
 
     #green {
-      color: green;
+      color: #588245;
       margin-left: 228px;
     }
 
