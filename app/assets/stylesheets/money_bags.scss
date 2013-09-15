@@ -59,6 +59,14 @@ html, body {
 
   .tab-one {
 
+    .question-one {
+      height: 30px;
+      width: 30px;
+      position: relative;
+      left: 150px;
+      display:none;
+    }
+
     .dino {
       height: 100px;
       position: relative;
@@ -73,11 +81,14 @@ html, body {
     }
 
     #versus {
+      text-align: center;
       margin-top: -180px;
       margin-left: 40px;
       color: white;
       font-size: 5cm;
       font-family: 'Lato', sans-serif;
+      -vendor-animation-duration: 7s;
+      -vendor-animation-delay: 2s;
     }
 
     .left-arrow {
@@ -190,7 +201,7 @@ html, body {
       width: 326px;
     }
   }
-  
+
   .tab-three {
 
     .left {
