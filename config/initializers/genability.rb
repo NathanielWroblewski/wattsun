@@ -15,5 +15,3 @@ rateAmount = p[1].fetch("rateAmount")
 rateAmount *= 100
 
 rateAmount = "$" + sprintf('%.2f', rateAmount)
-
-

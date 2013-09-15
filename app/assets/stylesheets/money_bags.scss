@@ -15,8 +15,13 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: $background-color;
+  z-index: -2;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
+
+  #nav-bar {
+    margin-top: -130px;
+  }
 
   .tabs {
     margin: 50px 150px;
@@ -45,6 +50,13 @@ html, body {
     }
   }
 
+  #white-sun {
+    height: 130px;
+    margin-top: 25px;
+    margin-left: 90px;
+    z-index: -1;
+  }
+
   .tab-one {
 
     .dino {
@@ -63,16 +75,16 @@ html, body {
     .left-arrow {
       height: 250px;
       position: relative;
-      top: 130px;
-      left: 240px;
+      top: 35px;
+      left: 199px;
       z-index: 0;
     }
 
     .right-arrow {
       height: 250px;
       position: relative;
-      top: -45px;
-      left: 630px;
+      top: -137px;
+      left: 505px;
       z-index: 0;
     }
 
@@ -86,29 +98,29 @@ html, body {
     .left-info {
       position: relative;
       z-index: 1;
-      top: 150px;
+      top: 60px;
       left: 175px;
     }
 
     .right-info {
       position: relative;
       z-index: 1;
-      left: 570px;
-      top: -20px;
+      left: 686px;
+      top: -113px;
     }
 
     .left-home {
       height: 90px;
       position: relative;
-      top: 30px;
-      left: 220px;
+      top: -147px;
+      left: 206px;
     }
 
     .right-home {
       height: 90px;
       position: relative;
-      top: 30px;
-      left: -95px;
+      top: -141px;
+      left: -72px;
     }
   }
 }
