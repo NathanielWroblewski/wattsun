@@ -8,6 +8,6 @@
 
 require 'csv'
 
-CSV.foreach('./solar_homes.csv') do |row|
-  SolarHome.create(full_address: row.join(', '))
-end
+# CSV.foreach('./solar_homes.csv') do |row|
+#   SolarHome.create(full_address: row.join(', '))
+# end
