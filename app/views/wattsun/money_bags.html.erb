@@ -1,15 +1,58 @@
 <div id="moneybags-page">
   <div class="row">
       <ul class="button-group round even-3 tabs">
-        <li class="small button alert">What you pay</li>
-        <li class="small button alert">Your savings</li>
-        <li class="small button alert">Your home value</li>
+        <li class="small button alert tab1 tab" data-tab="tab-one">What you pay</li>
+        <li class="small button alert tab2 tab" data-tab="tab-two">Your savings</li>
+        <li class="small button alert tab3 tab" data-tab="tab-three">Your home value</li>
       </ul>
   </div>
 
-  <div class="row">
+  <div class="tab-one tab-page">
+    <div class="row">
+      <div class="small-3 large-3 columns">
+        <%= image_tag 'Dinosaur.png', class: 'dino' %>
+      </div>
+      <div class="small-3 large-3 columns">
+      </div>
+      <div class="small-3 large-3 columns">
+        <%= image_tag 'Sun.png', class: 'sun' %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-3 large-3 columns">
+        <%= image_tag 'PlugArrowLeft.png', class: 'left-arrow' %>
+      </div>
+      <div class="left-info info">
+      </div>
+      <div class="small-3 large-3 columns">
+      </div>
+      <div class="small-3 large-3 columns">
+        <%= image_tag 'PlugArrowRight.png', class: 'right-arrow' %>
+      </div>
+      <div class="right-info info">
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-3 large-3 columns">
+        <%= image_tag 'Home.png', class: 'left-home' %>
+      </div>
+      <div class="small-3 large-3 columns">
+      </div>
+      <div class="small-3 large-3 columns">
+        <%= image_tag 'Home.png', class: 'right-home' %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row tab-two hidden tab-page">
     <div class="small-3 large-3 columns"></div>
+    <div class="small-3 large-3 columns">TAB TWO</div>
     <div class="small-3 large-3 columns"></div>
+  </div>
+
+  <div class="row tab-three hidden tab-page">
+    <div class="small-3 large-3 columns"></div>
+    <div class="small-3 large-3 columns">TAB THREE</div>
     <div class="small-3 large-3 columns"></div>
   </div>
 </div>

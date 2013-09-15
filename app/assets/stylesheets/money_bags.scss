@@ -6,7 +6,12 @@ html, body {
    height:100%;
 }
 
+.hidden {
+  display: none;
+}
+
 #moneybags-page {
+  min-height: 1200px;
   height: 100%;
   width: 100%;
   background-color: $background-color;
@@ -37,6 +42,73 @@ html, body {
       &:hover {
         background-color: #8B0000;
       }
+    }
+  }
+
+  .tab-one {
+
+    .dino {
+      height: 100px;
+      position: relative;
+      left: 200px;
+    }
+
+    .sun {
+      height: 120px;
+      position: relative;
+      top: -10px;
+      left: -100px;
+    }
+
+    .left-arrow {
+      height: 250px;
+      position: relative;
+      top: 130px;
+      left: 240px;
+      z-index: 0;
+    }
+
+    .right-arrow {
+      height: 250px;
+      position: relative;
+      top: -45px;
+      left: 630px;
+      z-index: 0;
+    }
+
+    .info {
+      background-color: white;
+      height: 175px;
+      width: 150px;
+      border-radius: 10px;
+    }
+
+    .left-info {
+      position: relative;
+      z-index: 1;
+      top: 150px;
+      left: 175px;
+    }
+
+    .right-info {
+      position: relative;
+      z-index: 1;
+      left: 570px;
+      top: -20px;
+    }
+
+    .left-home {
+      height: 90px;
+      position: relative;
+      top: 30px;
+      left: 220px;
+    }
+
+    .right-home {
+      height: 90px;
+      position: relative;
+      top: 30px;
+      left: -95px;
     }
   }
 }
