@@ -147,4 +147,66 @@ html, body {
       left: -72px;
     }
   }
+
+  .tab-three {
+
+    .left {
+
+      h1 {
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+        top: 100px;
+        left: 140px;
+      }
+
+      h3 {
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        top: 100px;
+        left: 140px;
+      }
+
+    }
+
+    .right {
+
+      h1 {
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+        top: 30px;
+        left: -180px;
+      }
+
+      h3 {
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        top: 30px;
+        left: -180px;
+      }
+    }
+
+    .lil-house {
+      position: relative;
+      height: 100px;
+      width: 150px;
+      top: 100px;
+      left: 200px;
+    }
+
+    .monster-house {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      top: 50px;
+      left: -150px;
+    }
+  }
 }
