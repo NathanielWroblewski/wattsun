@@ -1,8 +1,8 @@
 class SolarHome < ActiveRecord::Base
 
-  attr_accessible :full_address, :lat, :long
+  attr_accessible :full_address, :latitude, :longitude
 
-  geocoded_by :full_address
-  after_validation :geocode
+  # geocoded_by :full_address
+  # after_validation :geocode
 
 end
