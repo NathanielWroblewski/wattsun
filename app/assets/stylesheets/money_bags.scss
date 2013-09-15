@@ -149,9 +149,11 @@ html, body {
       z-index: 1;
       top: 10px;
       left: 175px;
+    }
 
-      .info {
-        color: red;
+    .info {
+      h1, h3 {
+        color: maroon; 
       }
     }
 
