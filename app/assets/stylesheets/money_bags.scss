@@ -86,7 +86,7 @@ html, body {
       margin-left: 40px;
       color: white;
       font-size: 5cm;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
       -vendor-animation-duration: 7s;
       -vendor-animation-delay: 2s;
     }
@@ -119,9 +119,12 @@ html, body {
         color: #f5ce31;
         top: -220px;
         font-size: 70px;
+        font-family: "Lato", sans-serif;
+
       }
 
       h3 {
+        font-family: "Lato", sans-serif;
         text-align: center;
         position: relative;
         color: #f5ce31;
@@ -130,6 +133,7 @@ html, body {
       }
 
       p {
+        font-family: "Lato", sans-serif;
         text-align: center;
         position: relative;
         color: black;
@@ -192,11 +196,13 @@ html, body {
     }
 
     #green {
+      font-family: "Lato", sans-serif;
       color: #588245;
       margin-left: 228px;
     }
 
     h4 {
+      font-family: "Lato", sans-serif;
       text-align: right;
       width: 326px;
     }
@@ -207,7 +213,7 @@ html, body {
     .left {
 
       h1 {
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         position: relative;
         font-size: 30px;
         text-align: center;
@@ -216,7 +222,7 @@ html, body {
       }
 
       h3 {
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         position: relative;
         font-size: 20px;
         text-align: center;
@@ -229,7 +235,7 @@ html, body {
     .right {
 
       h1 {
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         position: relative;
         font-size: 30px;
         text-align: center;
@@ -238,7 +244,7 @@ html, body {
       }
 
       h3 {
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         position: relative;
         font-size: 20px;
         text-align: center;
