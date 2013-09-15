@@ -15,4 +15,7 @@ class WattsunController < ApplicationController
     markers = homes.map{ |home| [ home.latitude, home.longitude ] }
     render json: { markers: markers }
   end
+
+  def money_bags
+  end
 end
