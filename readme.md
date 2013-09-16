@@ -1,7 +1,4 @@
-Wattsun
-==
-
-[Logo](http://i.imgur.com/PotdanI.png)
+![Wattsun](http://i.imgur.com/PotdanI.png)
 
 Desc
 --
