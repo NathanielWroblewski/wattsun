@@ -1,0 +1,52 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0;
+}
+
+#welcome {
+  background-image: url('sunrise.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.home-logo {
+  height: 170px;
+}
+
+#welcome-text {
+  margin-top: 160px;
+  padding-top: 75px;
+  text-align: center;
+  height: 300px;
+  background-color: black;
+  opacity: .7;
+}
+
+#welcome-text h1 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  margin-top: -35px;
+}
+
+#welcome h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: -26px;
+  margin-bottom: 25px;
+}
+
+#address {
+  width: 452px;
+  margin-top: 15px;
+}
+
+.home-button {
+  margin-left: -1205px;
+  margin-top: 4px;
+  font-family: 'Lato', sans-serif;
+}
