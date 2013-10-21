@@ -6,7 +6,7 @@ body, html {
 }
 
 #welcome {
-  background-image: image-url("sunrise.jpg");
+  background-image: url(image-path("sunrise.jpg"));
   background-repeat: no-repeat;
   background-size: 100% 100%;
   min-width: 100%;
