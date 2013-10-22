@@ -1,0 +1,56 @@
+$background-color: #86c351;
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#logo-map {
+  height: 130px;
+  margin-top: 25px;
+  margin-left: 90px;
+  z-index: -1;
+}
+
+#map-page {
+  height: 100%;
+  width: 80%;
+  background-color: $background-color;
+  text-align: center;
+  min-height: 800px;
+  z-index: -2;
+  font-family: 'Lato', sans-serif;
+  overflow: auto;
+  min-width: 100%;
+
+  #map-text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-top: -3.2em;
+
+    .bignum {
+      font-size: 70px;
+      font-weight: 1000;
+    }
+  }
+
+  h3 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin-top: -17px;
+    margin-bottom: 30px;
+  }
+
+  #map {
+    height: 80%;
+    min-height: 500px;
+    border: 1px solid white;
+    width: 65%
+  }
+
+  button {
+    margin-top: 20px;
+  }
+}
+
