@@ -39,7 +39,7 @@ $(document).ready(function(){
     // $('#map-page').find('h3').hide().fadeIn(3000);
 
 
-    $.get('solar_homes', function(data){
+    $.get('/solar_homes', function(data){
       for (var i=0;i<data.markers.length;i++){
         L.marker(data.markers[i], { icon: solarHomeIcon }).addTo(map);
       }
