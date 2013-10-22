@@ -15,7 +15,7 @@ Wattsun::Application.configure do
   config.action_controller.perform_caching = true
 
   # For Heroku
-  # config.assets.initialize_on_precompile = false
+  config.assets.initialize_on_precompile = false
   # config.assets.precompile = ['*.js', '*.scss', '*.jpg', '*.jpeg', '*.png']
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
@@ -24,7 +24,7 @@ Wattsun::Application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
-  config.serve_static_assets = true
+  # config.serve_static_sassets = true
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
