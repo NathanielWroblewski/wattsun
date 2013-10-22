@@ -15,8 +15,8 @@ Wattsun::Application.configure do
   config.action_controller.perform_caching = true
 
   # For Heroku
-  config.assets.initialize_on_precompile = false
-  config.assets.precompile = ['*.js', '*.scss', '*.jpg', '*.jpeg', '*.png']
+  # config.assets.initialize_on_precompile = false
+  # config.assets.precompile = ['*.js', '*.scss', '*.jpg', '*.jpeg', '*.png']
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
