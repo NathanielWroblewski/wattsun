@@ -1,9 +1,9 @@
 $background-color: #f5ce31;
 
 html, body {
-   margin:0;
-   padding:0;
-   height:100%;
+ margin:0;
+ padding:0;
+ height:100%;
 }
 
 .hidden {
@@ -293,6 +293,12 @@ html, body {
       top: 50px;
       left: -150px;
     }
+  }
+
+  .how-pay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
   }
 }
 
