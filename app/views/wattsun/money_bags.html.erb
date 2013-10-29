@@ -1,20 +1,22 @@
 <div id="moneybags-page">
   <div class='large-offset-9 small-offset-9'>
     <%= link_to root_path do %>
-      <%= image_tag("WattSunLogo_White.png", alt:"WattSun Logo", id:"white-sun")%>
+    <%= image_tag("WattSunLogo_White.png", alt:"WattSun Logo", id:"white-sun")%>
     <% end %>
   </div>
   <div class="row" id='nav-bar'>
-      <ul class="button-group round even-3 tabs">
-        <li class="small button alert tab1 tab" data-tab="tab-one">What you pay</li>
-        <li class="small button alert tab2 tab" data-tab="tab-two">Your savings</li>
-        <li class="small button alert tab3 tab" data-tab="tab-three">Your home value</li>
-      </ul>
+    <ul class="button-group round even-3 tabs">
+      <li class="small button alert tab1 tab" data-tab="tab-one">What you pay</li>
+      <li class="small button alert tab2 tab" data-tab="tab-two">Your savings</li>
+      <li class="small button alert tab3 tab" data-tab="tab-three">Your home value</li>
+    </ul>
   </div>
 
   <div class="tab-one tab-page">
     <div class='row'>
-      <%= image_tag 'HowDoYouPay.png', class: 'how-pay' %>
+      <div class="small-9 small-centered columns">
+        <%= image_tag 'HowDoYouPay.png', class: 'how-pay' %>
+      </div>
     </div>
 
     <!-- <div class="row">
