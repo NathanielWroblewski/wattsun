@@ -19,95 +19,57 @@
       </div>
     </div>
 
-    <!-- <div class="row">
-      <div class="small-3 large-3 columns">
-        <%= image_tag 'Dinosaur.png', class: 'dino' %>
-      </div>
-      <div class="small-3 large-3 columns">
-      </div>
-      <div class="small-3 large-3 columns">
-        <%= image_tag 'Sun.png', class: 'sun' %>
-      </div>
-    </div>
-    <div class="row">
-      <div class="small-4 large-4 columns">
-        <%= image_tag 'FATPlugArrowLeft.png', class: 'left-arrow' %>
-      </div>
-      <div class="left-info info">
-        <h1>31</h1>
-        <h3>cents/kWh</h3>
-        <p>(increases with use)</p>
-      </div>
-      <div class="small-4 large-4 columns">
-        <div id='versus'>vs</div>
-        <%= link_to '', :'data-reveal-id' => 'modal-one' do %>
-          <%= image_tag 'question_mark.png', class: 'question-one' %>
-        <% end %>
-      </div>
-      <div class="small-4 large-4 columns">
-        <%= image_tag 'FATPlugArrowRight.png', class: 'right-arrow' %>
-      </div>
-      <div class="right-info info">
-        <h1>19</h1>
-        <h3>cents/kWh</h3>
-        <p>(always)</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="small-3 large-3 columns">
-        <%= image_tag 'Home.png', class: 'left-home' %>
-      </div>
-      <div class="small-3 large-3 columns">
-      </div>
-      <div class="small-3 large-3 columns">
-        <%= image_tag 'Home.png', class: 'right-home' %>
-      </div>
-    </div> -->
-  </div>
-
-  <div class="row tab-two hidden tab-page">
-    <div class="large-offset-3 large-2 columns">
-      <%= image_tag 'Big Dinosaur.png', class: 'big-dino' %>
-    </div>
-    <div class="large-6 columns bang-num num-one">$44,816.83</div>
-    <div class="large-offset-1 large-11 columns space">
-      <h4>20 years of electricity bills WITHOUT solar</h4>
-    </div>
-    <div class="large-offset-3 large-2 columns space">
-      <%= image_tag 'Small Dinosaur.png', class: 'small-dino' %>
-    </div>
-    <div class="large-6 columns bang-num num-two">$12,548.71</div>
-    <div class="large-offset-1 large-11 columns space">
-      <h4>20 years of electricity bills WITH solar</h4>
-    </div>
-    <div class="large-offset-3 large-2 columns space">
-      <%= image_tag 'Solar Panel.png', class: 'solar-panel' %>
-    </div>
-    <div class="large-6 columns bang-num num-three">$12,600.00</div>
-    <div class="large-offset-1 large-11 columns space">
-      <h4>One time cost of your solar system</h4>
-    </div>
-    <div class='large-offset-1 large-11 columns line'></div>
-    <div class="large-offset-3 large-2 columns">
-      <%= image_tag 'Moneybag.png', class: 'moneybag' %>
-    </div>
-    <div class="large-6 columns bang-num num-four">$19,668.12</div>
-    <div id='green' class="large-offset-1 large-11 columns">
-      <h3 id='green'>Savings</h3>
+    <div class="small-4 large-4 columns">
+      <div id='versus'>vs</div>
+      <%= link_to '', :'data-reveal-id' => 'modal-one' do %>
+      <%= image_tag 'question_mark.png', class: 'question-one' %>
+      <% end %>
     </div>
   </div>
 
-  <div class="row tab-three hidden tab-page">
-    <div class="small-3 large-3 columns left">
-      <h1>Estimated Home Value</h1>
-      <h3>(Current)</h3>
-      <%= image_tag 'CurrentValueIcon.png', class: 'lil-house' %>
-    </div>
-    <div class="small-3 large-3 columns"></div>
-    <div class="small-3 large-3 columns right">
-      <h1>Estimated Home Value</h1>
-      <h3>(With Solar)</h3>
-      <%= image_tag 'NewHomeValueIcon.png', class: 'monster-house' %>
-    </div>
+<div class="row tab-two hidden tab-page">
+  <div class="large-offset-3 large-2 columns">
+    <%= image_tag 'Big Dinosaur.png', class: 'big-dino' %>
   </div>
+  <div class="large-6 columns bang-num num-one">$44,816.83</div>
+  <div class="large-offset-1 large-11 columns space">
+    <h4>20 years of electricity bills WITHOUT solar</h4>
+  </div>
+  <div class="large-offset-3 large-2 columns space">
+    <%= image_tag 'Small Dinosaur.png', class: 'small-dino' %>
+  </div>
+  <div class="large-6 columns bang-num num-two">$12,548.71</div>
+  <div class="large-offset-1 large-11 columns space">
+    <h4>20 years of electricity bills WITH solar</h4>
+  </div>
+  <div class="large-offset-3 large-2 columns space">
+    <%= image_tag 'Solar Panel.png', class: 'solar-panel' %>
+  </div>
+  <div class="large-6 columns bang-num num-three">$12,600.00</div>
+  <div class="large-offset-1 large-11 columns space">
+    <h4>One time cost of your solar system</h4>
+  </div>
+  <div class='large-offset-1 large-11 columns line'></div>
+  <div class="large-offset-3 large-2 columns">
+    <%= image_tag 'Moneybag.png', class: 'moneybag' %>
+  </div>
+  <div class="large-6 columns bang-num num-four">$19,668.12</div>
+  <div id='green' class="large-offset-1 large-11 columns">
+    <h3 id='green'>Savings</h3>
+  </div>
+</div>
+
+<div class="row tab-three hidden tab-page">
+  <div class="small-3 large-3 columns left">
+    <h1>Estimated Home Value</h1>
+    <h3>(Current)</h3>
+    <%= image_tag 'CurrentValueIcon.png', class: 'lil-house' %>
+  </div>
+  <div class="small-3 large-3 columns"></div>
+  <div class="small-3 large-3 columns right">
+    <h1>Estimated Home Value</h1>
+    <h3>(With Solar)</h3>
+    <%= image_tag 'NewHomeValueIcon.png', class: 'monster-house' %>
+  </div>
+</div>
 </div>
